@@ -21,7 +21,7 @@ document.getElementById('apiCallButton').addEventListener('click', function() {
         ]
     };
 
-    fetch('https://api.example.com/v1/chat/completions', {
+    fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
