@@ -8,8 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <input type="text" id="apiKey" placeholder="Enter your API Key">
-        <textarea id="userInput" placeholder="Enter your message here"></textarea>
+        <h1>API Interaction Tool</h1>
+        <div class="input-field">
+            <label for="apiKey">API Key:</label>
+            <input type="text" id="apiKey" placeholder="Enter your API Key">
+        </div>
+        <div class="input-field">
+            <label for="userInput">Your Message:</label>
+            <textarea id="userInput" placeholder="Enter your message here"></textarea>
+        </div>
         <button id="apiCallButton">Call API</button>
         <div id="apiResponse"></div>
     </div>
