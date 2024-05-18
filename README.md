@@ -46,13 +46,14 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/<your-username>/api-query-framework.git
 
-   Navigate to the Project Directory
-bash
-cd api-query-framework
+3. **Navigate to the Project Directory**
+   ```bash
+   cd api-query-framework
 
-Set Up API Key
+4. **Set Up API Key**
+
 Create a file named config.js in the js directory and add your ChatGPT API key:
-javascript
+
 // config.js
 const API_KEY = 'your-chatgpt-api-key';
 
@@ -65,12 +66,12 @@ const API_KEY = 'your-chatgpt-api-key';
 # Deployment
 ## Push Changes to GitHub
 - After making any changes, push them to your GitHub repository:
-bash
+ ```bash
 git add .
 git commit -m "Initial commit"
 git push origin main
 
-# Enable GitHub Pages
+# Enable Github Pages
 - Go to your repository on GitHub.
 - Click on Settings.
 - Scroll down to the GitHub Pages section.
@@ -82,7 +83,7 @@ Your site will be live at https://<your-username>.github.io/api-query-framework/
  -Fork the Project
 - Create your Feature Branch (git checkout -b feature/YourFeature)
 - Commit your Changes (git commit -m 'Add some feature')
-= Push to the Branch (git push origin feature/YourFeature)
+- Push to the Branch (git push origin feature/YourFeature)
 - Open a Pull Request
 
 # License
