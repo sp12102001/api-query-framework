@@ -49,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
 3. **Navigate to the Project Directory**
    ```bash
    cd api-query-framework
-`
+```
 4. **Set Up API Key**
 
 Create a file named config.js in the js directory and add your ChatGPT API key:
