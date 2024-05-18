@@ -80,7 +80,7 @@ Your site will be live at https://<your-username>.github.io/api-query-framework/
 
 # Contributing
 ## Contributions are welcome! Please follow these steps:
- -Fork the Project
+- Fork the Project
 - Create your Feature Branch (git checkout -b feature/YourFeature)
 - Commit your Changes (git commit -m 'Add some feature')
 - Push to the Branch (git push origin feature/YourFeature)
