@@ -45,11 +45,11 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/<your-username>/api-query-framework.git
-
+`
 3. **Navigate to the Project Directory**
    ```bash
    cd api-query-framework
-
+`
 4. **Set Up API Key**
 
 Create a file named config.js in the js directory and add your ChatGPT API key:
@@ -67,10 +67,10 @@ const API_KEY = 'your-chatgpt-api-key';
 ## Push Changes to GitHub
 - After making any changes, push them to your GitHub repository:
  ```bash
-git add .
+git add
 git commit -m "Initial commit"
 git push origin main
-
+```
 # Enable Github Pages
 - Go to your repository on GitHub.
 - Click on Settings.
